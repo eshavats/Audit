@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Payments from "./Payments";
+import "./style/Header.css";
 
 class Header extends React.Component {
   renderContent() {
@@ -22,7 +23,14 @@ class Header extends React.Component {
             <Payments />
           </li>,
           <li key="2">
-            <a className="btn grey" href="/api/logout">Logout</a>
+            <a className="btn blue" href="">
+              Credits: {this.props.auth.credits}
+            </a>
+          </li>,
+          <li key="3">
+            <a className="btn grey" href="/api/logout">
+              Logout
+            </a>
           </li>,
         ];
     }
