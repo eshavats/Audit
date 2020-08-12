@@ -1,3 +1,9 @@
 .btn {
     margin-left: 0 !important;
 }
+.logo {
+    width: 80px;
+}
+nav .brand-logo {
+    font-size: 4.5rem;
+}
