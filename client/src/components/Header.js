@@ -48,7 +48,7 @@ class Header extends React.Component {
                 to={this.props.auth ? "/surveys" : "/"}
                 className="left brand-logo"
               >
-                <img className="logo" src={require("./images/logo.PNG")} />
+                <img alt="logo" className="logo" src={require("./images/logo.PNG")} />
               </Link>
             </div>
 
