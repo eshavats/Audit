@@ -13,7 +13,9 @@ class Header extends React.Component {
       case false:
         return (
           <li>
-            <a className="btn" href="/auth/google">Login with Google</a>
+            <a className="btn" href="/auth/google">
+              Login with Google
+            </a>
           </li>
         );
 
@@ -23,9 +25,9 @@ class Header extends React.Component {
             <Payments />
           </li>,
           <li key="2">
-            <a className="btn blue" href="">
+            <span style={{ marginRight: "15px" }} className="btn blue" href="">
               Credits: {this.props.auth.credits}
-            </a>
+            </span>
           </li>,
           <li key="3">
             <a className="btn grey" href="/api/logout">

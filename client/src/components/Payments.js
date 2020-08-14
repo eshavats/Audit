@@ -10,7 +10,7 @@ class Payments extends React.Component {
         name="Audit"
         description="Get 5 email credits for ₹50"
         amount={5000}
-        currency="inr"
+        currency="INR"
         token={(token) => this.props.handleToken(token)}
         stripeKey={process.env.REACT_APP_STRIPE_KEY}
       >
