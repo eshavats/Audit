@@ -1,0 +1,18 @@
+.survey-new {
+  margin-top: 5%;
+}
+label {
+  font-size: 20px;
+}
+.survey-review {
+  margin-bottom: 5%;
+}
+.review-field {
+  margin-bottom: 2%;
+}
+.field-value {
+  font-size: 18px;
+}
+.heading {
+  margin-bottom: 3%;
+}

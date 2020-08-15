@@ -2,6 +2,7 @@ import React from "react";
 import { reduxForm } from "redux-form";
 import SurveyForm from "./SurveyForm";
 import SurveyFormReview from "./SurveyFormReview";
+import "../style/SurveyNew.css";
 
 class SurveyNew extends React.Component {
   state = { showFormReview: false };
@@ -22,7 +23,7 @@ class SurveyNew extends React.Component {
   };
 
   render() {
-    return <div>{this.renderContent()}</div>;
+    return <div className="survey-new">{this.renderContent()}</div>;
   }
 }
 
